@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 75px;
+ background: #B85042;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ max-width: 95%;
+ background: #B85042;
+ margin: auto;
+}
+nav .navbar .logo a{
+  color: #E7E8D1;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.logo:hover{
+    color: #E7E8D1;
+    text-decoration: underline;
+}
+.contact_phone:hover{
+    color: #E7E8D1;
+    text-decoration: underline;
+}
+nav .navbar .menu{
+  display: flex;
+}
+.navbar .menu li{
+  list-style: none;
+  margin: 0 10px;
+  pad: 5px ;
+  height: 100%;
+}
+.navbar .menu li a{
+  color: #E7E8D1;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu__link:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  border-radius: 5px;
+  }
+  .mobile_navbar{
+    color: #E7E8D1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: #B85042;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   }
+   .close_moblile{
+    color: #E7E8D1;
+    cursor: pointer;
+   }
+
+section{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #B85042;
+  padding: 3rem; 
+}
+#home{
+  background: #E7E8D1;
+ 
+}
+#translate{
+  background: #cecfb6;
+}
+#price{
+  background: #E7E8D1;
+}
+
+#contact{
+  background: #f0f1df;
+}
+
+footer{
+  margin: 0;
+ 
+  background-color: #B85042;
+  text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #E7E8D1;
+    padding: 1rem;
+  }
+
+.contact_h1, a{
+  color: #B85042;
+  text-decoration: underline;
+  
+}
+.question_button {
+ margin-top:  1rem;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5252;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+}
+
+.question_button:hover {
+  background-color: #fff;
+  color: #ff5252;
+  border: 2px solid #ff5252;
+  box-shadow: 5px 5px 0px #ff5252;
+}
+
+.question_button:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #E7E8D1;
+  background: #B85042;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+.nav_button{
+cursor: pointer;
+color:#e6e6e6;
+text-align: center;
+padding: 2px;
+width: 35px;
+}
+
+.nav_button:hover{
+    background-color:#e6e6e6 ;
+    color: #B85042;
+    border-radius: 5px;    
+}
+
+
+/*SECTIONS*/
+
+.container{    
+    max-height: 100%;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+.container-mid{
+    padding: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+.container_contact{
+      padding: 10%;    
+      max-height: 100%;
+    
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+.img{
+    max-width: 100%;
+    max-height:100%;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+.text{
+    max-width: 80%;
+    font-size: auto;
+    padding-left: 20px;
+    cursor: default;
+  }
+
+  /*DISPLAY NONE*/
+
+.hidden{
+    display: none;
+}
+
+/*MOBILE VERSION */
+@media (max-width: 1028px) {
+ body{
+  margin: 0;
+  padding: 0;  
+ }
+  #title {
+    text-align: center;
+  }
+  .img{
+    margin: 1rem;
+    text-align: center;
+    max-height: 80%;
+    max-width: 80%;    
+  }
+  .container{
+    margin-top: 3rem;
+    max-width: 100%;   
+  }
+  .container-mid{
+  
+    text-align: center;
+    font-size: medium;    
+    padding: 1rem;
+    margin: 0rem;
+    display: inline-flex;
+    flex-direction: column;
+    
+  }
+}
