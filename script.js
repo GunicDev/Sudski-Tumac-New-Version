@@ -65,7 +65,7 @@ slideSections();
     navBar.innerHTML = `
     <nav id="myTopnav">
     <div class="navbar">
-      <div class="logo"><a href="mailto:snjeza93@hotmail.com">sudskitumacspg@gmail.co</a></div>     
+      <div class="logo"><a href="mailto:snjeza93@hotmail.com">sudskitumacspg@gmail.com <i class="fa-regular fa-envelope"></i></a></div>     
         <i id="nav-button" onclick="mobileNavBar()"  class="nav_button fi fi-rr-menu-burger"></i>
     </div>
   </nav>
