@@ -236,7 +236,12 @@ width: 35px;
     padding: 1rem;
     margin: 0rem;
     display: inline-flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
+  }
+  nav .navbar .logo a{
+    color: #E7E8D1;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
   }
 }
