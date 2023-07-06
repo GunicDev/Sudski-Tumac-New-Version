@@ -227,10 +227,9 @@ width: 35px;
   }
   .container{
     margin-top: 3rem;
-    width: 100%;  
+    max-width: 100%;  
   }
-  .container-mid{
-  
+  .container-mid{  
     text-align: center;
     font-size: medium;    
     padding: 1rem;
@@ -240,8 +239,23 @@ width: 35px;
   }
   nav .navbar .logo a{
     color: #E7E8D1;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     text-decoration: none;
+  }
+  nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    height: 75px;
+    background: #B85042;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   }
+   .contact_h1, a{
+    font-size: medium;
+    color: #B85042;
+    text-decoration: underline;
+    max-width: 100%;
   }
 }
