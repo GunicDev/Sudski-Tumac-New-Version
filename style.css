@@ -96,6 +96,8 @@ section{
   background: #f0f1df;
 }
 
+
+
 footer{
   margin: 0;
  
@@ -103,7 +105,7 @@ footer{
   text-align: center;
   }
 
-  footer a {
+footer a {
     text-decoration: none;
     color: #E7E8D1;
     padding: 1rem;
@@ -143,10 +145,11 @@ footer{
   transform: translateY(4px);
 }
 
-.button a{
+.button a{  
+  
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 8px;
   color: #E7E8D1;
   background: #B85042;
   padding: 7px 12px;;
